@@ -1,6 +1,6 @@
 import requests
 
-from settings import DEFAULT_LANGUAGE, DICTIONARY_API_URL
+from pydict.settings import DEFAULT_LANGUAGE, DICTIONARY_API_URL
 
 
 def get_word_information(language, word):

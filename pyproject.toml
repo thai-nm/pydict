@@ -1,0 +1,25 @@
+[build-system]
+requires      = ["setuptools>=68.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pydict"
+version = "0.1.0"
+description = "A dictionary on terminal."
+readme = "README.md"
+authors = [{ name = "Thai Nguyen", email = "thainm.uet@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["dictionary", "terminal"]
+dependencies = []
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/thainm/pydict"
+
+[project.scripts]
+pydict = "pydict.__main__:main"
